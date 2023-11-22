@@ -1,4 +1,9 @@
+let formelm = document.getElementById("form1");
 function getFormvalue() {
-    //Write your code here
+
+let output1 = formelm.fname.value ;
+let output2 = formelm.lname.value;
+	alert(output1 +" "+ output2);
+	
 
 }
